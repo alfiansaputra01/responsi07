@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package responsi;
+import view.MovieView;
+import Util.Connector;
+import control.movieControl;
+import model.movieModel;
+
+/**
+ *
+ * @author ASUS
+ */
+public class responsi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        MovieView view = new MovieView();
+        movieModel model = new movieModel();
+        movieControl controller = new movieControl(model, view);
+    }
+    
+}
